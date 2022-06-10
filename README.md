@@ -1,9 +1,12 @@
+Copied from [Google Code:lib2a](https://code.google.com/archive/p/lib2a/)
+
+---
 
   LIB to A converter v1.0
   Free Open Source program - GNU GPL Licence.
 
 
-Overview
+# Overview
 
 This tool automatically converts a .LIB file (MS Visual C linker library) 
 into .A file (MinGW linker library).
@@ -12,13 +15,13 @@ It is useful to make a C/C++ program a reusable component.
 I have written it because I did not have found a such tool over the Net.
 
 
-Description
+# Description
 
 The main program is LIB2A.bat that performs successive stages for 
 converting .LIB file to .A file into in the "convert" folder.
 
 
-How it works
+# How it works
 
 The conversion process is accomplished in several steps:
 1) Copy your .LIB file and .DLL file into the "convert" folder.
@@ -28,7 +31,7 @@ The conversion process is accomplished in several steps:
 You can find your .A linker library into the "convert" folder.
 
 
-License
+# License
 
 The LIB to A program is under the GNU GPL license, that minds you may use it 
 and distribute it freely, providing the copyright is unchanged.
